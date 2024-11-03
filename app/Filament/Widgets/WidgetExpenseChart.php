@@ -31,7 +31,7 @@ class WidgetExpenseChart extends ChartWidget
             $startDate,
             $endDate,
         )
-        ->perMonth()
+        ->perDay()
         ->sum('amount');
  
  
